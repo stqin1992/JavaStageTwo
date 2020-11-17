@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/分布式和大数据/分布式和大数据.iml" filepath="$PROJECT_DIR$/分布式和大数据/分布式和大数据.iml" />
+      <module fileurl="file://$PROJECT_DIR$/数据结构和算法/数据结构和算法.iml" filepath="$PROJECT_DIR$/数据结构和算法/数据结构和算法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/设计模式/设计模式.iml" filepath="$PROJECT_DIR$/设计模式/设计模式.iml" />
+    </modules>
+  </component>
+</project>
