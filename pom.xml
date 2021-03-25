@@ -14,7 +14,16 @@
         <module>SpringBoot</module>
         <module>Mybatis</module>
         <module>分布式和大数据</module>
+        <module>数据库</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.3.3</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
