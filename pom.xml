@@ -16,7 +16,6 @@
         <module>分布式和大数据</module>
         <module>数据库</module>
         <module>Spring</module>
-        <module>Day2</module>
     </modules>
 
     <dependencies>
