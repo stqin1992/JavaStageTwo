@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>分布式和大数据</artifactId>
+    <artifactId>BigData</artifactId>
 
 
 </project>

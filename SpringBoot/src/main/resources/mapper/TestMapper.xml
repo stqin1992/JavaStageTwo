@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stqin.spring.schedule.dao.TestDao">
+    <resultMap id="StaffInfo" type="com.stqin.spring.schedule.entity.StaffInfo">
+        <result column="id" property="id" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result column="name" property="name" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result column="deptId" property="deptId" javaType="java.lang.String" jdbcType="VARCHAR"/>
+        <result column="salary" property="salary" javaType="float" jdbcType="FLOAT"/>
+    </resultMap>
+
+    <insert id="insertStaffInfo" parameterType="com.stqin.spring.schedule.entity.StaffInfo">
+        insert into tb_emp
+          (
+            id,
+            name,
+            deptId,
+            salary
+          ) values(
+            #{id},
+            #{name},
+            #{deptId},
+            #{salary}
+          );
+    </insert>
+<!--    <select id="queryStaffInfo" parameterMap="com.stqin.spring.schedule.entity.StaffInfo" resultMap="StaffInfo" >-->
+<!--        select id,-->
+<!--               name,-->
+<!--               deptId,-->
+<!--               salary-->
+<!--        from tb_emp-->
+<!--        where deptId = #{deptId}-->
+<!--        limit 1;-->
+<!--    </select>-->
+
+</mapper>
